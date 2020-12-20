@@ -63,7 +63,7 @@ function irc_random_nope(){
 }
 function irc_random_ok(){
   RANDOM_OK=$(shuf -n1 oks)
-  irc_send "PRIVMSG $CHANNEL : @$SENDER $RANDOM_NOPE"
+  irc_send "PRIVMSG $CHANNEL : @$SENDER $RANDOM_OK"
 }
 
 function random_wait(){
